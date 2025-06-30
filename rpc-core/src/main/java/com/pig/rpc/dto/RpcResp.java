@@ -19,10 +19,10 @@ import java.io.Serializable;
 public class RpcResp<T> implements Serializable {
     private static final long serialVersionUID = 1L;
 
-    private String reqId;
-    private Integer code;
-    private String msg;
-    private T data;
+    private String reqId; // 请求Id
+    private Integer code; // 成功还是失败响应码
+    private String msg; // 失败原因
+    private T data; // 数据
 
 
     public static <T> RpcResp<T> success(String reqId, T data) {

@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3d15f7a-ecdd-4c3f-8a58-5d864ee174e2" name="更改" comment="明确rpc实现目标">
-      <change beforePath="$PROJECT_DIR$/rpc-core/src/main/java/com/pig/rpc/dto/RpcReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/pig/rpc/dto/RpcReq.java" afterDir="false" />
+    <list default="true" id="d3d15f7a-ecdd-4c3f-8a58-5d864ee174e2" name="更改" comment="构造通用请求">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-core/src/main/java/com/pig/rpc/dto/RpcResp.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/pig/rpc/dto/RpcResp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +27,9 @@
   </component>
   <component name="GiteeDefaultAccount">
     <option name="defaultAccountId" value="bafb85a0-d508-44d5-9a64-38d20a657ba1" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -154,7 +158,7 @@
       <workItem from="1740124217370" duration="7401000" />
       <workItem from="1740147361962" duration="2201000" />
       <workItem from="1740152997885" duration="6766000" />
-      <workItem from="1751269793362" duration="2228000" />
+      <workItem from="1751269793362" duration="2550000" />
     </task>
     <task id="LOCAL-00001" summary="client">
       <option name="closed" value="true" />
@@ -228,7 +232,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751270524696</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="构造通用请求">
+      <option name="closed" value="true" />
+      <created>1751272270183</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1751272270183</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,7 +267,8 @@
     <MESSAGE value="zookeeper做服务注册" />
     <MESSAGE value="zookeeper关闭时删除节点, zk缓存" />
     <MESSAGE value="明确rpc实现目标" />
-    <option name="LAST_COMMIT_MESSAGE" value="明确rpc实现目标" />
+    <MESSAGE value="构造通用请求" />
+    <option name="LAST_COMMIT_MESSAGE" value="构造通用请求" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
