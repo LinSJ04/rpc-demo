@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3d15f7a-ecdd-4c3f-8a58-5d864ee174e2" name="更改" comment="zookeeper关闭时删除节点, zk缓存" />
+    <list default="true" id="d3d15f7a-ecdd-4c3f-8a58-5d864ee174e2" name="更改" comment="zookeeper关闭时删除节点, zk缓存">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-client/src/main/java/com/pig/client/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-client/src/main/java/com/pig/client/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,6 +61,11 @@
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/javaProject/pig-rpc",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15429688",
     "project.structure.side.proportion": "0.2",
@@ -147,7 +156,7 @@
       <workItem from="1740124217370" duration="7401000" />
       <workItem from="1740147361962" duration="2201000" />
       <workItem from="1740152997885" duration="6766000" />
-      <workItem from="1751269793362" duration="127000" />
+      <workItem from="1751269793362" duration="665000" />
     </task>
     <task id="LOCAL-00001" summary="client">
       <option name="closed" value="true" />

@@ -11,6 +11,7 @@
     <packaging>jar</packaging>
 
     <dependencies>
+        <!--父工程已经设置了版本号，直接声明依赖即可-->
         <dependency>
             <groupId>com.pig</groupId>
             <artifactId>test-api</artifactId>
