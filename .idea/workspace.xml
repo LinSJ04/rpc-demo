@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3d15f7a-ecdd-4c3f-8a58-5d864ee174e2" name="更改" comment="zookeeper关闭时删除节点, zk缓存">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-client/src/main/java/com/pig/client/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-client/src/main/java/com/pig/client/Main.java" afterDir="false" />
+    <list default="true" id="d3d15f7a-ecdd-4c3f-8a58-5d864ee174e2" name="更改" comment="明确rpc实现目标">
+      <change beforePath="$PROJECT_DIR$/rpc-core/src/main/java/com/pig/rpc/dto/RpcReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/pig/rpc/dto/RpcReq.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +154,7 @@
       <workItem from="1740124217370" duration="7401000" />
       <workItem from="1740147361962" duration="2201000" />
       <workItem from="1740152997885" duration="6766000" />
-      <workItem from="1751269793362" duration="665000" />
+      <workItem from="1751269793362" duration="2228000" />
     </task>
     <task id="LOCAL-00001" summary="client">
       <option name="closed" value="true" />
@@ -222,7 +220,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740160020887</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="明确rpc实现目标">
+      <option name="closed" value="true" />
+      <created>1751270524696</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1751270524696</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,7 +254,8 @@
     <MESSAGE value="去掉无用代码" />
     <MESSAGE value="zookeeper做服务注册" />
     <MESSAGE value="zookeeper关闭时删除节点, zk缓存" />
-    <option name="LAST_COMMIT_MESSAGE" value="zookeeper关闭时删除节点, zk缓存" />
+    <MESSAGE value="明确rpc实现目标" />
+    <option name="LAST_COMMIT_MESSAGE" value="明确rpc实现目标" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

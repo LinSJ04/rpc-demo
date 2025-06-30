@@ -16,16 +16,16 @@ import java.io.Serializable;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class RpcReq implements Serializable {
+public class RpcReq implements Serializable { // 发请求，携带通用信息
     private static final long serialVersionUID = 1L;
 
-    private String reqId;
-    private String interfaceName;
-    private String methodName;
-    private Object[] params;
-    private Class<?>[] paramTypes;
-    private String version;
-    private String group;
+    private String reqId; // 请求Id
+    private String interfaceName; // 找这个接口的实现类
+    private String methodName; // 方法名
+    private Object[] params; // 参数列表
+    private Class<?>[] paramTypes; // 参数类型列表
+    private String version; // 版本，同一个方法可能会有不同实现
+    private String group; // 不同类型的实现，如普通用户和管理员
 
     // UserService -> CommonUserServiceImpl1.getUser()
     //             -> CommonUserServiceImpl2.getUser()
