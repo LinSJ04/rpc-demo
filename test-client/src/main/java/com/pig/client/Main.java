@@ -15,6 +15,8 @@ public class Main {
     public static void main(String[] args) {
         // 由于UserServiceImpl在test-server服务中，因此无法直接使用
         // 实现目标：如何像调用本地方法那样，实现远程调用test-server服务中的方法
+
+        // RpcClient.sendReq() 可以封装成一个invoke()方法
         UserService userService = ProxyUtils.getProxy(UserService.class);
 
         ExecutorService executorService = Executors.newFixedThreadPool(10);

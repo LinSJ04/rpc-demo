@@ -33,10 +33,12 @@ public class SocketRpcClient implements RpcClient {
     public RpcResp<?> sendReq(RpcReq rpcReq) {
         InetSocketAddress address = serviceDiscovery.lookupService(rpcReq);
 
-        try (Socket socket = new Socket(address.getAddress(), address.getPort())) {
+        // 用java网络编程的socket发请求
+        // new Socket()：建立连接
+        try (Socket socket = new Socket(address.getAddress(), address.getPort())) { // 结束之后，就会关闭socket
             ObjectOutputStream outputStream = new ObjectOutputStream(socket.getOutputStream());
             outputStream.writeObject(rpcReq);
-            outputStream.flush();
+            outputStream.flush(); // 刷新输出，确保数据可以发送到服务器
 
             ObjectInputStream inputStream = new ObjectInputStream(socket.getInputStream());
             Object o = inputStream.readObject();
