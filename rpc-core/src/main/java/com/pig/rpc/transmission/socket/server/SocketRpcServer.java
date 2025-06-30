@@ -46,11 +46,11 @@ public class SocketRpcServer implements RpcServer {
     public void start() {
         ShutdownHookUtils.clearAll();
 
-        try (ServerSocket serverSocket = new ServerSocket(port)) {
+        try (ServerSocket serverSocket = new ServerSocket(port)) { // 服务启动，监听port
             log.info("服务启动, 端口: {}", port);
 
             Socket socket;
-            while ((socket = serverSocket.accept()) != null) {
+            while ((socket = serverSocket.accept()) != null) { // 接收到了请求
                 executor.submit(new SocketReqHandler(socket, rpcReqHandler));
             }
         } catch (Exception e) {
