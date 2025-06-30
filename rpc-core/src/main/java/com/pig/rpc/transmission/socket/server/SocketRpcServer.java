@@ -39,6 +39,7 @@ public class SocketRpcServer implements RpcServer {
         this.port = port;
         this.serviceProvider = serviceProvider;
         this.rpcReqHandler = new RpcReqHandler(serviceProvider);
+        // 网络交互，IO密集型
         this.executor = ThreadPoolUtils.createIoIntensiveThreadPool("socket-rpc-server-");
     }
 
@@ -51,6 +52,7 @@ public class SocketRpcServer implements RpcServer {
 
             Socket socket;
             while ((socket = serverSocket.accept()) != null) { // 接收到了请求
+                // 用线程池处理
                 executor.submit(new SocketReqHandler(socket, rpcReqHandler));
             }
         } catch (Exception e) {

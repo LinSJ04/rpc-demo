@@ -27,6 +27,7 @@ public class SimpleServiceProvider implements ServiceProvider {
 
         log.debug("发布服务: {}", rpcServiceNames);
 
+        // rpcServiceName ==> 对应的服务
         rpcServiceNames.forEach(rpcServiceName -> SERVICE_CACHE.put(rpcServiceName, config.getService()));
     }
 

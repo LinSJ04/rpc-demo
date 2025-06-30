@@ -32,6 +32,7 @@ public class RpcReq implements Serializable { // 发请求，携带通用信息
     //             -> AdminUserServiceImpl1.getUser()
     //             -> AdminUserServiceImpl2.getUser()
 
+    // InterfaceName+version+group==>ServiceName==>ServiceImpl(注册的时候是通过(ServiceName,ServiceImpl)形式)
     public String rpcServiceName() {
         return getInterfaceName()
             + StrUtil.blankToDefault(getVersion(), StrUtil.EMPTY)

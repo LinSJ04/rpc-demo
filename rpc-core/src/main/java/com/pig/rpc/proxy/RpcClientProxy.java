@@ -14,6 +14,7 @@ import java.lang.reflect.Proxy;
 import java.util.Objects;
 
 /**
+ * 使用JDK动态代理，需要实现InvocationHandler
  * @Author Mr.Pan
  * @Date 2025/2/21
  **/

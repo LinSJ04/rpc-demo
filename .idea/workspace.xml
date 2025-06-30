@@ -4,8 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3d15f7a-ecdd-4c3f-8a58-5d864ee174e2" name="更改" comment="利用socket实现client向server发送请求">
+    <list default="true" id="d3d15f7a-ecdd-4c3f-8a58-5d864ee174e2" name="更改" comment="利用socket实现server接收client的请求">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-core/src/main/java/com/pig/rpc/config/RpcServiceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/pig/rpc/config/RpcServiceConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-core/src/main/java/com/pig/rpc/dto/RpcReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/pig/rpc/dto/RpcReq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-core/src/main/java/com/pig/rpc/provider/ServiceProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/pig/rpc/provider/ServiceProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-core/src/main/java/com/pig/rpc/provider/impl/SimpleServiceProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/pig/rpc/provider/impl/SimpleServiceProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-core/src/main/java/com/pig/rpc/proxy/RpcClientProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/pig/rpc/proxy/RpcClientProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-core/src/main/java/com/pig/rpc/transmission/socket/server/SocketReqHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/pig/rpc/transmission/socket/server/SocketReqHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rpc-core/src/main/java/com/pig/rpc/transmission/socket/server/SocketRpcServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/pig/rpc/transmission/socket/server/SocketRpcServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-core/src/main/java/com/pig/rpc/util/ShutdownHookUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/pig/rpc/util/ShutdownHookUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-core/src/main/java/com/pig/rpc/util/ThreadPoolUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/pig/rpc/util/ThreadPoolUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +98,7 @@
       <recent name="com.pig.rpc.provider.impl" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.server2">
+  <component name="RunManager" selected="Application.com.pig.client.Main">
     <configuration name="com.pig.client.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.pig.client.Main" />
       <module name="test-client" />
@@ -134,6 +143,11 @@
       <item itemvalue="Application.com.pig.client.Main" />
       <item itemvalue="Application.server1" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.com.pig.client.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -157,7 +171,7 @@
       <workItem from="1740124217370" duration="7401000" />
       <workItem from="1740147361962" duration="2201000" />
       <workItem from="1740152997885" duration="6766000" />
-      <workItem from="1751269793362" duration="3927000" />
+      <workItem from="1751269793362" duration="13591000" />
     </task>
     <task id="LOCAL-00001" summary="client">
       <option name="closed" value="true" />
@@ -255,7 +269,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751273685391</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="利用socket实现server接收client的请求">
+      <option name="closed" value="true" />
+      <created>1751274040305</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1751274040305</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,6 +307,7 @@
     <MESSAGE value="构造通用请求" />
     <MESSAGE value="构造通用响应" />
     <MESSAGE value="利用socket实现client向server发送请求" />
-    <option name="LAST_COMMIT_MESSAGE" value="利用socket实现client向server发送请求" />
+    <MESSAGE value="利用socket实现server接收client的请求" />
+    <option name="LAST_COMMIT_MESSAGE" value="利用socket实现server接收client的请求" />
   </component>
 </project>

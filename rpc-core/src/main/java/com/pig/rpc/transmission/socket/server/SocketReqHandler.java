@@ -17,7 +17,7 @@ import java.net.Socket;
  **/
 @Slf4j
 @AllArgsConstructor
-public class SocketReqHandler implements Runnable {
+public class SocketReqHandler implements Runnable { // 开启一个线程去socket里面读请求
     private final Socket socket;
     private final RpcReqHandler rpcReqHandler;
 

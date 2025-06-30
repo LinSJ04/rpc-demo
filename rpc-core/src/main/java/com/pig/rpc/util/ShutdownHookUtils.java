@@ -16,7 +16,7 @@ public class ShutdownHookUtils {
             log.info("系统结束运行, 清理资源");
             ServiceRegistry serviceRegistry = SingletonFactory.getInstance(ZkServiceRegistry.class);
             serviceRegistry.clearAll();
-            ThreadPoolUtils.shutdownAll();
+            ThreadPoolUtils.shutdownAll(); // jvm运行结束的时候关闭线程池
         }));
     }
 }
