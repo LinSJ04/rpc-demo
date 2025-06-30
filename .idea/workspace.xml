@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d3d15f7a-ecdd-4c3f-8a58-5d864ee174e2" name="更改" comment="zookeeper关闭时删除节点, zk缓存" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GiteeDefaultAccount">
+    <option name="defaultAccountId" value="bafb85a0-d508-44d5-9a64-38d20a657ba1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+        <option name="threads" value="1C" />
+        <option name="userSettingsFile" value="E:\Java\Maven\apache-maven-3.9.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2tFUJXZkwrIE46AUaus3Chl9PXl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/javaProject/pig-rpc",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15429688",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.AppTest.executor": "Run",
+    "应用程序.Main.executor": "Run",
+    "应用程序.ZkServiceRegistry.executor": "Run",
+    "应用程序.com.pig.client.Main.executor": "Run",
+    "应用程序.server1.executor": "Run",
+    "应用程序.server2.executor": "Run"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Java\IDEA\project\teach\pig-rpc\rpc-core\src\main\java\com\pig\rpc" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.pig.rpc.util" />
+      <recent name="com.pig.rpc.provider.impl" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.server2">
+    <configuration name="com.pig.client.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pig.client.Main" />
+      <module name="test-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pig.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="server1" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.pig.server.Main" />
+      <module name="test-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pig.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="server2" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.pig.server.Main" />
+      <module name="test-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pig.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.server2" />
+      <item itemvalue="Application.com.pig.client.Main" />
+      <item itemvalue="Application.server1" />
+    </list>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="d3d15f7a-ecdd-4c3f-8a58-5d864ee174e2" name="更改" comment="" />
+      <created>1739947245036</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1739947245036</updated>
+      <workItem from="1739947245821" duration="4790000" />
+      <workItem from="1740105221077" duration="8000" />
+      <workItem from="1740105241575" duration="6768000" />
+      <workItem from="1740112294746" duration="43000" />
+      <workItem from="1740124217370" duration="7401000" />
+      <workItem from="1740147361962" duration="2201000" />
+      <workItem from="1740152997885" duration="6766000" />
+      <workItem from="1751269793362" duration="127000" />
+    </task>
+    <task id="LOCAL-00001" summary="client">
+      <option name="closed" value="true" />
+      <created>1739950691040</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1739950691040</updated>
+    </task>
+    <task id="LOCAL-00002" summary="server">
+      <option name="closed" value="true" />
+      <created>1740105258295</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1740105258295</updated>
+    </task>
+    <task id="LOCAL-00003" summary="服务注册与发布">
+      <option name="closed" value="true" />
+      <created>1740109254796</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1740109254796</updated>
+    </task>
+    <task id="LOCAL-00004" summary="多线程请求处理">
+      <option name="closed" value="true" />
+      <created>1740112328513</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1740112328513</updated>
+    </task>
+    <task id="LOCAL-00005" summary="动态代理">
+      <option name="closed" value="true" />
+      <created>1740153515883</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1740153515883</updated>
+    </task>
+    <task id="LOCAL-00006" summary="去掉无用代码">
+      <option name="closed" value="true" />
+      <created>1740153575539</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1740153575539</updated>
+    </task>
+    <task id="LOCAL-00007" summary="zookeeper做服务注册">
+      <option name="closed" value="true" />
+      <created>1740158751557</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1740158751557</updated>
+    </task>
+    <task id="LOCAL-00008" summary="zookeeper关闭时删除节点, zk缓存">
+      <option name="closed" value="true" />
+      <created>1740160020887</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1740160020887</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="client" />
+    <MESSAGE value="server" />
+    <MESSAGE value="服务注册与发布" />
+    <MESSAGE value="多线程请求处理" />
+    <MESSAGE value="动态代理" />
+    <MESSAGE value="去掉无用代码" />
+    <MESSAGE value="zookeeper做服务注册" />
+    <MESSAGE value="zookeeper关闭时删除节点, zk缓存" />
+    <option name="LAST_COMMIT_MESSAGE" value="zookeeper关闭时删除节点, zk缓存" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rpc-core/src/main/java/com/pig/rpc/transmission/socket/server/SocketReqHandler.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
