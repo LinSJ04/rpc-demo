@@ -6,15 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d3d15f7a-ecdd-4c3f-8a58-5d864ee174e2" name="更改" comment="利用socket实现server接收client的请求">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc-core/src/main/java/com/pig/rpc/config/RpcServiceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/pig/rpc/config/RpcServiceConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc-core/src/main/java/com/pig/rpc/dto/RpcReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/pig/rpc/dto/RpcReq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc-core/src/main/java/com/pig/rpc/provider/ServiceProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/pig/rpc/provider/ServiceProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc-core/src/main/java/com/pig/rpc/provider/impl/SimpleServiceProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/pig/rpc/provider/impl/SimpleServiceProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc-core/src/main/java/com/pig/rpc/proxy/RpcClientProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/pig/rpc/proxy/RpcClientProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc-core/src/main/java/com/pig/rpc/transmission/socket/server/SocketReqHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/pig/rpc/transmission/socket/server/SocketReqHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc-core/src/main/java/com/pig/rpc/transmission/socket/server/SocketRpcServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/pig/rpc/transmission/socket/server/SocketRpcServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc-core/src/main/java/com/pig/rpc/util/ShutdownHookUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/pig/rpc/util/ShutdownHookUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc-core/src/main/java/com/pig/rpc/util/ThreadPoolUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/pig/rpc/util/ThreadPoolUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-core/src/main/java/com/pig/rpc/constant/RpcConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/pig/rpc/constant/RpcConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-core/src/main/java/com/pig/rpc/factory/SingletonFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/pig/rpc/factory/SingletonFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-core/src/main/java/com/pig/rpc/registry/impl/ZkServiceDiscovery.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/pig/rpc/registry/impl/ZkServiceDiscovery.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +55,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.com.pig.client.Main.executor": "Run",
+    "Application.server2.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -70,7 +66,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/javaProject/pig-rpc",
+    "last_opened_file_path": "D:/javaProject/rpc-demo",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -98,7 +94,7 @@
       <recent name="com.pig.rpc.provider.impl" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.pig.client.Main">
+  <component name="RunManager" selected="Application.server2">
     <configuration name="com.pig.client.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.pig.client.Main" />
       <module name="test-client" />
@@ -152,7 +148,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
       </set>
     </attachedChunks>
   </component>
@@ -172,6 +169,7 @@
       <workItem from="1740147361962" duration="2201000" />
       <workItem from="1740152997885" duration="6766000" />
       <workItem from="1751269793362" duration="13591000" />
+      <workItem from="1751296547173" duration="5580000" />
     </task>
     <task id="LOCAL-00001" summary="client">
       <option name="closed" value="true" />

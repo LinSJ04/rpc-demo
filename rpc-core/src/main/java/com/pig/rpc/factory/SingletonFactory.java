@@ -26,6 +26,7 @@ public class SingletonFactory {
             return clazz.cast(INSTANCE_CACHE.get(clazz));
         }
 
+        // 双重检测锁
         synchronized (SingletonFactory.class) {
             if (INSTANCE_CACHE.containsKey(clazz)) {
                 return clazz.cast(INSTANCE_CACHE.get(clazz));
